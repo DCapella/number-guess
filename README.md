@@ -30,10 +30,7 @@ else:
   ```
 
 If you answer right,
-  `print(f"Good job, %s! You guessed my number in %i guesses!" % (name, (count + 1)))`
-Or wrong,
-  `print("Nope. The number I was thinking of was " + str(answer) + ".")`
-It will always ask you if you want to play again with a function:
+  `print(f"Good job, %s! You guessed my number in %i guesses!" % (name, (count + 1)))`, or wrong, `print("Nope. The number I was thinking of was " + str(answer) + ".")`, it will always ask you if you want to play again with a function:
   ```python
   def play_again(name):
       play_again = input("Do you want to play again? y/n\n>> ")
